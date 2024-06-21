@@ -1,7 +1,11 @@
 # Machine Learning Model Training Visualization
 
 This repository contains code for visualizing the training progress of a machine learning model using TensorFlow/Keras and Matplotlib. It includes a custom callback, `PlotLearning`, which saves the training and validation metrics as a series of images. These images can be compiled into a GIF to visually track the training progress over epochs.
+### Training Visualization
 
+Below is an animated GIF that shows the training progress, visualizing how the model's loss and accuracy evolve over each epoch:
+
+![Training Progress](/training_animation.gif)
 ## Repository Structure
 
 - `plot_learning.py`: Contains the `PlotLearning` class, a TensorFlow/Keras callback that logs training metrics and saves them as images after each epoch.
@@ -99,16 +103,3 @@ To run the training script, follow these steps:
     ```
 
 This will start the model training process. The `PlotLearning` callback will show images at each epoch.
-
-## Training Visualization
-
-Below is an animated GIF that shows the training progress, visualizing how the model's loss and accuracy evolve over each epoch:
-
-![Training Progress](/training_animation.gif)
-
-This GIF is generated automatically by saving plots at each epoch using the `PlotLearning` callback and compiling them into a GIF.
-
-)
-
-This GIF is generated automatically by saving plots at each epoch using the `PlotLearning` callback and compiling them into a GIF.
-
