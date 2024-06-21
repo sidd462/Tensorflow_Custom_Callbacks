@@ -48,7 +48,7 @@ To run the training script, follow these steps:
     ```bash
     python test.py
     ```
-
+ 
 This will start the model training process. The `PlotLearning` callback will show images at each epoch.
 ## Contributions
 
